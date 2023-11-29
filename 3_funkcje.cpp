@@ -56,7 +56,7 @@ int main() {
     vector<Pracownik> pracownicy = {
         {1, "Jan", "Kowalski", 12000.0, 2000.0},
         {2, "Anna", "Nowak", 18000.0, 1500.0},
-        // Dodaj więcej pracowników...
+        
     };
 
    
