@@ -2,7 +2,7 @@
 #include <map>
 using namespace std;
 
-void generate_sales_report(std::map<std::string, double>& sales_data) {
+void generate_sales_report(map<string, double>& sales_data) {
     double total_sales = 0.0;
 
     for (const auto& entry : sales_data) {
