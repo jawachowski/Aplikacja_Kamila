@@ -6,7 +6,7 @@ double calculate_salary(double sales_amount, double advance_amount) {
     double total_salary = sales_amount * (1 + bonus) - advance_amount;
 
     if (total_salary < 0) {
-        cout << "Pracownik musi zwrócić firmie pieniądze." << std::endl;
+        cout << "Pracownik musi zwrócić firmie pieniądze." << endl;
     }
 
     return max(total_salary, 0.0);
