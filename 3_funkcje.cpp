@@ -59,7 +59,7 @@ int main() {
         // Dodaj więcej pracowników...
     };
 
-    // Generuj raport premii
+   
     generujRaportPremii(pracownicy);
 
     return 0;
